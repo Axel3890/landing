@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
+import { Portfolio } from "@/components/component/portfolio";
+import { Portfolio2 } from "@/components/component/portfolio2";
 export default function Home() {
   return (
       <div className="flex flex-col min-h-[100dvh]">
@@ -47,18 +49,18 @@ export default function Home() {
                 <div className="space-y-2">
                   <h1
                     className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    ¿Quieres ser un experto en la generación de citas y llevar tu negocio al siguiente nivel? 
+                     Servicios de Edición de Videos 
                   </h1>
                   <p
                     className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-En nuestra plataforma, te proporcionamos las herramientas y estrategias necesarias para convertirte en un maestro del appointment setting. No importa si eres un emprendedor, un profesional de ventas o un empresario, dominar esta habilidad te abrirá las puertas al éxito.
+Desde efectos especiales hasta transiciones creativas, nuestros editores pueden hacer que tus videos destaquen en la plataforma de moda. ¡Haz que tu contenido sea viral con nuestra ayuda!
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                     href="#">
-                    Agenda tu llamada
+                    ¡Haz que mi TikTok brille!
                   </Link>
                   <Link
                     className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
@@ -79,10 +81,10 @@ En nuestra plataforma, te proporcionamos las herramientas y estrategias necesari
                   className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
                   New Features
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">¿Por qué es Importante Dominar esta Habilidad?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Personalización Total</h2>
                 <p
                   className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-Es el primer paso crucial en el proceso de ventas, donde se establece el contacto inicial y se comienza a construir una relación con el cliente.
+Nos adaptamos a tus necesidades y preferencias. Ya sea que busques un estilo específico de edición o tengas requisitos únicos para tus videos, estamos aquí para cumplir con tus expectativas.
                 </p>
               </div>
             </div>
@@ -98,25 +100,25 @@ Es el primer paso crucial en el proceso de ventas, donde se establece el contact
                 <ul className="grid gap-6">
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Incrementa tus Ventas</h3>
+                      <h3 className="text-xl font-bold">Edición de Videos para TikTok</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                      Al dominar el appointment setting, aumentarás tus oportunidades de cerrar ventas. Al tener reuniones programadas, puedes presentar tu oferta de manera personalizada y persuasiva, lo que aumenta las posibilidades de éxito.
+                      Desde efectos especiales hasta transiciones creativas, nuestros editores pueden hacer que tus videos destaquen en la plataforma de moda. ¡Haz que tu contenido sea viral con nuestra ayuda!
                       </p>
                     </div>
                   </li>
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Ahorra Tiempo y Recursos</h3>
+                      <h3 className="text-xl font-bold">Reels de Instagram Impecables</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                      Con un enfoque efectivo en la generación de citas, no perderás tiempo persiguiendo clientes potenciales poco interesados. En su lugar, te enfocarás en aquellos que están genuinamente interesados en lo que tienes para ofrecer.
+                      Los reels son una excelente manera de captar la atención de tu audiencia en Instagram. Déjanos encargarnos de la edición para que puedas concentrarte en crear contenido de calidad.
                       </p>
                     </div>
                   </li>
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Construye Relaciones Sólidas</h3>
+                      <h3 className="text-xl font-bold">Creación de Contenido Promocional</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                      l appointment setting bien hecho establece una base sólida para futuras interacciones con tus clientes. Construir relaciones sólidas desde el principio aumenta la lealtad del cliente y puede llevar a referencias y ventas repetidas.
+                      ¿Necesitas un video promocional para tu producto o servicio? Nosotros lo tenemos cubierto. Creamos contenido atractivo que impulse tu marca y genere interés entre tu audiencia.
                       </p>
                     </div>
                   </li>
@@ -130,27 +132,28 @@ Es el primer paso crucial en el proceso de ventas, donde se establece el contact
             className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              En nuestra plataforma, te proporcionamos las estrategias probadas y las tácticas más efectivas para dominar el appointment setting
+              Edición de Vlogs y Videos de Estilo de Vida
               </h2>
               <p
                 className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Formación Personalizada, Herramientas Innovadoras, Asesoramiento Expertos
+                Si eres un creador de contenido o un influencer que quiere mejorar la calidad de sus videos, ¡estás en el lugar correcto! Nuestros servicios de edición pueden hacer que tus vlogs y videos de estilo de vida sean aún más atractivos y profesionales.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row lg:justify-end">
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-300"
                 href="#">
-                Contact Sales
+                Impulsa mi Marca
               </Link>
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-300 dark:border-gray-800"
                 href="#">
-                Learn more
+                Agendar una llamada
               </Link>
             </div>
           </div>
         </section>
+        <Portfolio2></Portfolio2>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-200 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2">
@@ -166,13 +169,22 @@ Es el primer paso crucial en el proceso de ventas, donde se establece el contact
                         <AvatarImage alt="@shadcn" src="/placeholder-user.jpg" />
                         <AvatarFallback>CN</AvatarFallback>
                       </Avatar>
-                      <div className="flex items-center gap-0.5 ml-auto">
-                        <StarIcon className="w-4 h-4 fill-primary" />
-                        <StarIcon className="w-4 h-4 fill-primary" />
-                        <StarIcon className="w-4 h-4 fill-primary" />
-                        <StarIcon className="w-4 h-4 fill-muted stroke-muted-foreground" />
-                        <StarIcon className="w-4 h-4 fill-muted stroke-muted-foreground" />
-                      </div>
+                    </div>
+                    <div className="grid gap-0.5 text-sm">
+                      <h3 className="font-semibold">Client Name</h3>
+                      <time className="text-sm text-gray-500 dark:text-gray-400">2 days ago</time>
+                    </div>
+                    <div className="text-sm leading-loose text-gray-500 dark:text-gray-400">
+                      <p>Testimonial content goes here. It can be a review or a success story.</p>
+                    </div>
+                    
+                  </div>
+                  <div className="bg-white p-6 rounded-xl dark:bg-gray-950">
+                    <div className="flex items-center">
+                      <Avatar className="w-10 h-10 border">
+                        <AvatarImage alt="@shadcn" src="/placeholder-user.jpg" />
+                        <AvatarFallback>CN</AvatarFallback>
+                      </Avatar>
                     </div>
                     <div className="grid gap-0.5 text-sm">
                       <h3 className="font-semibold">Client Name</h3>
@@ -183,6 +195,7 @@ Es el primer paso crucial en el proceso de ventas, donde se establece el contact
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>

@@ -12,6 +12,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      textShadow: {
+        'custom': '0em 0em 0.3em #2bb725',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

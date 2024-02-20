@@ -45,8 +45,8 @@ export default function Home() {
                 alt="Hero"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                 height="550"
-                src="/axel.png"
-                width="550"
+                src="/hombre.jpg"
+                width="450"
               />
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
@@ -97,16 +97,16 @@ export default function Home() {
               <Image
                 alt="Image"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/axel.png"
-                width="550"
+                height="510"
+                src="/edicion.jpg"
+                width="750"
               />
               <div className="flex flex-col justify-center space-y-4">
                 <ul className="grid gap-6">
                   <li>
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">Videos que destacan</h3>
-                      <p className="text-gray-500 ">
+                      <p className="text-gray-400 ">
                         Tus videos se destacarán de la competencia y captarán la
                         atención de tu audiencia!
                       </p>
@@ -115,7 +115,7 @@ export default function Home() {
                   <li>
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">Contenido viral</h3>
-                      <p className="text-gray-500 ">
+                      <p className="text-gray-400 ">
                         Aumenta tus posibilidades de que tus videos se vuelvan
                         virales en TikTok e Instagram
                       </p>
@@ -126,7 +126,7 @@ export default function Home() {
                       <h3 className="text-xl font-bold">
                         Crecimiento de tu marca
                       </h3>
-                      <p className="text-gray-500 ">
+                      <p className="text-gray-400 ">
                         mpulsa tu marca y genera interés en tus productos o
                         servicios.
                       </p>

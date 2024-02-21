@@ -162,7 +162,7 @@ export function Landing() {
             <div className="grid gap-6 lg:grid-cols-2">
               <div className="space-y-4">
                 <div
-                  className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
+                  className="inline-block rounded-lgte bg-gray-950 px-3 py-1 text-sm text-black">
                   Testimonials
                 </div>
                 <div className="grid gap-6">
